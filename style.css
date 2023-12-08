@@ -1,0 +1,436 @@
+/*! Misc */
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+    /* background-color: white; */
+}
+
+
+/*! Container's */
+.con {
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22);
+    width: 500px;
+    height: 500px;
+    transition: 200ms ease-in-out;
+}
+
+.logcon {
+    width: 500px;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.header_section {
+    width: 100vw;
+    height: 130px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.22);
+    display: inline-flex;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.localisation {
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer;
+    /* margin-left: 1290px; */
+}
+
+.main_section {
+    width: 1900px;
+    height: 900px;
+    /* background-color: aliceblue; */
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.22);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide {
+    width: 1750px;
+    height: 800px;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* display: flex; */
+    /* justify-content: baseline; */
+    /* align-items: center; */
+}
+
+.slide_element {
+    margin: 10px;
+    float: left;
+    height: 600px;
+}
+
+.footer_section {
+    width: 100vw;
+    height: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.con_buy {
+    width: 800px;
+    height: 240px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+}
+
+.inps {
+    width: 500px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: -400px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    /* margin-top: 200px; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients {
+    position: absolute;
+    text-align: center;
+    height: 470px;
+    width: 400px;
+    top: 20%;
+    left: 71%;
+}
+
+.con_wrong {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+.con_comm {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1800px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22);
+}
+
+.con_contact_info {
+    text-align: center;
+    margin: 10px;
+    height: 690px;
+    display: grid;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.con_faq {
+    text-align: center;
+    margin: 10px;
+    height: 690px;
+}
+
+.con_chat {
+    text-align: center;
+    margin: 10px;
+    height: 690px;
+}
+
+.worker {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 93%;
+    right: 1%;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.search_con {
+    text-align: center;
+    height: 200px;
+    /* margin-top: 75px; */
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+.orders_con {
+    height: 900px;
+    overflow: scroll;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+/*! Text */
+.text {
+    font-size: 30px;
+}
+
+.smalltext {
+    font-size: 16px;
+}
+
+.desc_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.text_buy {
+    margin: 20px;
+    text-align: left;
+    margin-left: 600px;
+    margin-top: -400px;
+    font-size: 26px;
+}
+
+.text_buy_yours{
+    font-size: 26px;
+}
+
+.text_b {
+    margin-left: 850px;
+}
+
+.text_comm {
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.contact_text {
+    margin-top: -150px;
+}
+
+.orders_text {
+    margin-top: 40px;
+}
+
+
+/*! Image's */
+.logo_index {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: -150px; */
+}
+
+.img {
+    width: 50px;
+    height: 50px;   
+}
+
+.logo_img {
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.comm {
+    /* margin-left: 1280px; */
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.local {
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 1350px;
+    cursor: pointer;
+}
+
+.pizza {
+    width: 350px;
+    height: 350px;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.pizza_buy {
+    width: 450px;
+    height: 450px;
+}
+
+.worker_img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*! Input's */
+.input {
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.22);
+    transition: 300ms ease-in-out;
+    margin: 5px;
+}
+
+
+/*! Buttons */
+.button {
+    text-align: center;
+    width: 220px;
+    height: 40px;
+    border: 0px;
+    outline: 0px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.22);
+    margin-top: 40px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.reg_link {
+    /* margin-top: -200px; */
+    /* margin-bottom: -50px; */
+    color: black;
+}
+
+.log_back {
+    color: black;
+    width: 150px;
+    margin-top: -15px;
+}
+
+.button_main {
+    margin-left: 140px;
+}
+
+.arrow{
+    cursor: pointer;
+    width: 75px;
+    border-radius: 5px;
+    margin-top: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin: 10px; */
+    height: 70px;
+    /* border: 1px solid rgba(0, 0, 0, 0.22); */
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.44);
+    font-size: 50px;
+    text-align: center;
+    transition: 200ms ease-in-out;
+}
+
+.button_buy {
+    margin-left: 600px;
+}
+
+.button_reg {
+    margin-top: 10px;
+}
+
+.button_login {
+    margin-left: 55px;
+    margin-top: -20px;
+}
+
+.back_buy {
+    margin-right: 650px;
+}
+
+.back_s {
+    margin-right: 350px;
+}
+
+.button_yours_buy {
+    margin-top: -10px;
+    margin-top: 20px;
+}
+
+
+/*! Hover, Active, etc... */
+.input:hover {
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.66);
+}
+
+.input:focus {
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.66);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.66);
+}
+
+.con:hover {
+    transition: 200ms ease-in-out;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.66);
+}
+
+.worker:hover {
+    transition: 200ms ease-in-out;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.66);
+}
+
+.arrow:hover {
+    transition: 200ms ease-in-out;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.88);
+}
